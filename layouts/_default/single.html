@@ -7,13 +7,10 @@
   {{ if .Params.toc }}
     <div>
       <div id="navbar">{{ .TableOfContents }}</div>
-  {{ end }}
-  <div class="child-right">{{ .Content }}</div>
-  {{ if .Params.toc }}
+      <div class="child-right">{{ .Content }}</div>
     </div>
+  {{ else }}
+    <div>{{ .Content }}</div>
   {{ end }}
 </div>
-
-
-
 {{- end }}
