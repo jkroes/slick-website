@@ -1,0 +1,103 @@
+<div class="footer-content">
+  <div class="pure-menu pure-menu-horizontal">
+    <ul class="pure-menu-list">
+      {{- range .Site.Menus.footer }}
+      <li class="pure-menu-item">
+        {{- if .URL }}
+        <a class="pure-menu-link" href="{{ .URL }}">{{ .Name }}</a>
+        {{- else }}
+        {{ .Name }}
+        {{- end }}
+      </li>
+      {{- end }}
+      {{- with .Site.RSSLink }}
+      <li class="pure-menu-item">
+        <a href="{{ . }}" class="pure-menu-link">RSS</a>
+      </li>
+      {{- end }}
+      <li class="pure-menu-item">
+        <a class="pure-menu-link" id="btn-gototop">
+          <span class="fixup">&#x21e7;&#xfe0e;</span>
+        </a>
+      </li>
+    </ul>
+  </div>
+  {{- with .Site.Copyright }}
+  <div class="pure-menu pure-menu-horizontal">
+    <ul class="pure-menu-list">
+      <li class="pure-menu-item pure-menu-disabled">
+        &copy; {{ now.Format "2006" }} &mdash; {{ . }}
+      </li>
+    </ul>
+  </div>
+  {{- end }}
+</div>
+<script>
+  function setElementsClass(selector, value) {
+    Array.prototype.forEach.call(
+      document.querySelectorAll(selector),
+      function(elem) { elem.className = value; }
+    );
+  }
+
+  setElementsClass('img', 'pure-img');
+  setElementsClass('table', 'pure-table');
+
+  function onResize() {
+      setElementsClass(
+        '.pure-menu', document.documentElement.clientWidth >= 568 ?
+              'pure-menu pure-menu-horizontal' : 'pure-menu'
+      );
+  }
+  onResize();
+  window.addEventListener('resize', onResize);
+
+  document.getElementById('btn-gototop').addEventListener('click', function() {
+    function scroll() {
+      if (window.pageYOffset > 0) { setTimeout(scroll, 8); }
+      window.scroll(0, window.pageYOffset - 128);
+    }
+    scroll();
+  });
+</script>
+<!--
+https://vincenttam.gitlab.io/post/2018-09-17-fix-hugo-table-of-contents/
+Note that the output index.html files will have the same extraneous top-level
+ul and li elements, but differ in terms of whether the script code is included, 
+when alternately commenting and uncommenting the script below. Open the
+files in a browser to see that extraneous bullets/indentation have been 
+stripped by the script when it's included.
+-->
+<script>
+  (function() {
+    var toc = document.getElementById('TableOfContents');
+    if (!toc) return;
+    do {
+      var li, ul = toc.querySelector('ul');
+      if (ul.childElementCount !== 1) break;
+      li = ul.firstElementChild;
+      if (li.tagName !== 'LI') break;
+      // remove <ul><li></li></ul> where only <ul> only contains one <li>
+      ul.outerHTML = li.innerHTML;
+    } while (toc.childElementCount >= 1);
+  })();
+</script>
+<!--
+<script>
+  window.onscroll = function() {myFunction()};
+  
+  var navbar = document.getElementById("navbar");
+  var sticky = navbar.offsetTop;
+  
+  function myFunction() {
+    if (window.pageYOffset >= sticky) {
+      navbar.classList.add("sticky")
+    } else {
+      navbar.classList.remove("sticky");
+    }
+  }
+</script>
+-->
+{{ range .Site.Params.custom_js -}}
+    <script type="text/javascript" src="{{. | absURL}}"></script>
+{{- end }}

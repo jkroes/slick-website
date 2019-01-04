@@ -1,5 +1,5 @@
-# Set base URL for site - should end with a trailing slash
-baseUrl = "/"
+﻿# Set base URL for site - should end with a trailing slash
+baseUrl = "https://stupefied-turing-60b487.netlify.com/"
 
 title = "Slick"
 theme = "slick"
@@ -44,7 +44,10 @@ PaginatePath = "page"
     opengraph = false
     schema = false
     twitter_cards = false
-
+    
+    # CSS/JS Customization
+    custom_css = ["css/my.css"]
+    custom_js = ["js/my.js"]
 
 # Define all supported taxonomies (add series to the default)
 [taxonomies]

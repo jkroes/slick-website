@@ -1,0 +1,25 @@
+#TableOfContents > ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+#TableOfContents > ul > li ul {
+  list-style-type: none;
+  padding-left: 1em;
+}
+
+#navbar {
+   width: 25%;
+   float: left;
+   overflow-y: scroll;
+   height: 500px;
+}
+
+.child-right {
+    width: 72%;
+    float: right;
+}
+
+.sticky {
+  top: 0;
+  position: fixed;
+}
