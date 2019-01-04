@@ -6,7 +6,10 @@
   </div>
   {{ if .Params.toc }}
     <div>
-      <div id="navbar">{{ .TableOfContents }}</div>
+      <div id="navbar">
+        <h2> Table of Contents </h2>
+        {{ .TableOfContents }}
+      </div>
       <div class="child-right">{{ .Content }}</div>
     </div>
   {{ else }}
