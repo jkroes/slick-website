@@ -1,4 +1,4 @@
-﻿# Set base URL for site - should end with a trailing slash
+# Set base URL for site - should end with a trailing slash
 baseUrl = "https://stupefied-turing-60b487.netlify.com/"
 
 title = "Slick"
