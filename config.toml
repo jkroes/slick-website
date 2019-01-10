@@ -1,14 +1,14 @@
 # Set base URL for site - should end with a trailing slash
 baseUrl = "https://focused-kalam-46bf38.netlify.com/"
 
-title = "Slick"
+title = "An Exercise in (F)Utility"
 theme = "slick"
 
 languageCode = "en"
 defaultContentLanguage = "en-us"
 
 # Will appear below the footer links with a © sign and the current year
-copyright = "Some Author — All rights reserved."
+copyright = "Ain't no copyright — No rights reserved."
 
 
 pygmentsCodefences = true               # Enable highlighting inside codefences
@@ -24,10 +24,10 @@ PaginatePath = "page"
 
 [params]
     # Site subtitle
-    subtitle = "Just another site"
+    subtitle = "Not my rest day"
 
     # Site description
-    description = "Example site for Slick Hugo theme"
+    description = "A central location for links to programming resources, organized by topic."
 
     # Favicon file (relative to baseURL)
     favicon = "img/favicon.png"
@@ -38,13 +38,13 @@ PaginatePath = "page"
     datefmt = "Mon, 02 Jan 2006 15:04:05 MST"
 
     # Decide if only summaries are shown on the main page or the full content
-    showfullcontent = true
+    showfullcontent = false
 
     # Uses Hugo internal templates if set
     opengraph = false
     schema = false
     twitter_cards = false
-    
+
     # CSS/JS Customization
     custom_css = ["assets/my.css"]
     custom_js = ["assets/my.js"]
@@ -53,12 +53,12 @@ PaginatePath = "page"
 [taxonomies]
     tags = "tags"
     categories = "categories"
-    series = "series"
+    # series = "series"
 
 
 [author]
-    name = "Some Author"
-    email = "some@email.com"
+    name = "Justin Kroes"
+    email = "jkroes14@ucsbalum.com"
 
 
 [menu]
@@ -83,24 +83,24 @@ PaginatePath = "page"
         url = "/tags/"
         weight = 2
 
-    [[menu.main]]
-        identifier = "series"
-        name = "Series"
-        url = "/series/"
-        weight = 2
+    # [[menu.main]]
+    #     identifier = "series"
+    #     name = "Series"
+    #     url = "/series/"
+    #     weight = 2
 
     # Add some footer links to your likings
     [[menu.footer]]
         name = "GitHub"
-        url = "https://github.com/someauthor"
+        url = "https://github.com/jkroes/slick-website"
         weight = 1
 
-    [[menu.footer]]
-        name = "Medium"
-        url = "https://medium.com/@someauthor"
-        weight = 3
+    # [[menu.footer]]
+    #     name = "Medium"
+    #     url = "https://medium.com/@someauthor"
+    #     weight = 3
 
-    [[menu.footer]]
-        name = "Twitter"
-        url = "https://twitter.com/someauthor"
-        weight = 2
+    # [[menu.footer]]
+    #     name = "Twitter"
+    #     url = "https://twitter.com/someauthor"
+    #     weight = 2

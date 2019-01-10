@@ -1,25 +1,108 @@
+a {
+  color: #006BD4;
+}
+
+/* Overrides style.css */
+a:visited {
+  color: #006BD4;
+}
+
 #TableOfContents > ul {
   list-style-type: none;
-  padding-left: 0;
+  padding-left: 1.1em;
 }
+
 #TableOfContents > ul > li ul {
-  list-style-type: none;
+  list-style-type: disc;
   padding-left: 1em;
 }
 
 #navbar {
-   width: 25%;
-   float: left;
-   overflow-y: scroll;
-   height: 500px;
+  position
+  width: 30%;
+  float: left;
+  overflow-y: scroll;
+  height: 500px;
 }
 
 .child-right {
-    width: 72%;
-    float: right;
+  width: 68%;
+  float: right;
+}
+
+/* Without this, when the sticky class is applied via JS to the navbar
+the width will change. See explanation here, though I stumbled upon the below
+solution instead:
+https://stackoverflow.com/questions/16018520/is-it-possible-to-keep-the-width-of-the-parent-element-when-position-fixed-is-a */
+.nonsticky {
+  position: static;
 }
 
 .sticky {
   top: 0;
   position: fixed;
+}
+
+.l-box {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* https://stackoverflow.com/questions/41650700/pure-css-responsive-centered-columns */
+/* http://blog.purecss.io/post/60789414532/how-we-improved-grids-in-pure-030 */
+.center {
+  justify-content: center;
+}
+
+/* http://html5doctor.com/the-details-and-summary-elements/ */
+/* Disable default marker */
+summary::-webkit-details-marker {
+  display: none
+}
+
+summary {
+  padding-top: .5em
+}
+
+/* Display a '+' marker */
+summary:after {
+  content: "...";
+  float: right;
+  font-size: .75em;
+  text-align: center;
+  width: 20px;
+}
+
+/* Display a '-' marker when expanded */
+details[open] > summary:after {
+  content: "";
+}
+
+details p {
+  margin: 0;
+  padding-left: 1em;
+}
+
+details > details > details {
+  padding-left: 1em;
+}
+
+div > details {
+  margin-bottom: 1em
+}
+
+div > details > summary {
+  font-size: 1.5em;
+  font-weight: bold;
+  padding-bottom: .5em;
+  margin-bottom: .5em;
+  border-bottom: 1px solid #dedede;
+}
+
+div > details > summary:after {
+  content: none;
+}
+
+div > details[open] > summary:after {
+  content: none;
 }
