@@ -56,15 +56,11 @@ https://stackoverflow.com/questions/16018520/is-it-possible-to-keep-the-width-of
   padding-left: 10px;
 }
 
-pure-u-8-24
-
-
-
 /* https://stackoverflow.com/questions/41650700/pure-css-responsive-centered-columns */
 /* http://blog.purecss.io/post/60789414532/how-we-improved-grids-in-pure-030 */
-.center {
+/* .center {
   justify-content: center;
-}
+} */
 
 /* http://html5doctor.com/the-details-and-summary-elements/ */
 /* Disable default marker */
@@ -90,8 +86,11 @@ details[open] > summary:after {
   content: "";
 }
 
-details p {
-  margin: 0;
+details > p {
+    margin: 0;
+}
+
+details > details > p {
   padding-left: 1em;
 }
 
