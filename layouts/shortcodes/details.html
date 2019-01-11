@@ -1,4 +1,17 @@
-<details>
-  <summary>{{ .Get 0 }}</summary>
-    {{ .Inner }}
-</details>
+<!-- Uncomment to view .Inner as raw HTML: -->
+<!-- { string .Inner }} -->
+
+<!-- Pure text collapsibles: opening tags-->
+{{ $first := replaceRE "<li>([^<>]*?)<ul>" "<details><summary>$1</summary>" .Inner }}
+<!-- Hyperlinked collapsibles: opening tags -->
+{{ $firstish := replaceRE "<li>(<a.*?a>[^<>]*)<ul>" "<details><summary>$1</summary>" $first }}
+<!-- All collapsibles: closing tags -->
+{{ $second := replaceRE "</ul></li>" "</details>" $firstish }}
+<!-- Non-collapsibles -->
+{{ $third := replaceRE "<li>(.*?)</li>" "<p>$1</p>" $second }}
+<!-- Only list tags remaining are the very first and last ones -->
+{{ $fourth := replaceRE "</ul>" "" $third}}
+{{ $fifth := replaceRE "<ul>" "" $fourth }}
+<!-- Converting string to raw HTML avoids markdownify's seemingly random  insertion of <p>...</p> -->
+{{ $output := $fifth | safeHTML }}
+{{ partial "pure-grid-element" (dict "stuff" $output) }}
