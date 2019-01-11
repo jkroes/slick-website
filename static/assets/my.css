@@ -43,10 +43,22 @@ https://stackoverflow.com/questions/16018520/is-it-possible-to-keep-the-width-of
   position: fixed;
 }
 
-.l-box {
-  padding-left: 15px;
-  padding-right: 15px;
+.pure-u-8-24:first-child > .l-box {
+  padding-right: 10px;
 }
+
+.pure-u-8-24:nth-child(2n+0) > .l-box {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.pure-u-8-24:nth-child(3n+0) > .l-box {
+  padding-left: 10px;
+}
+
+pure-u-8-24
+
+
 
 /* https://stackoverflow.com/questions/41650700/pure-css-responsive-centered-columns */
 /* http://blog.purecss.io/post/60789414532/how-we-improved-grids-in-pure-030 */
