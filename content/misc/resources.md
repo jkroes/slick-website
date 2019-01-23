@@ -46,11 +46,10 @@ menu:
     * Documentation
         * [Landing Page](https://support.sas.com/documentation/94/)
         * [Knowledge Base](https://support.sas.com/en/knowledge-base.html)
-        * Useful Topics
-            * [SAS/ACCESS](http://documentation.sas.com/?docsetId=acpcref&docsetTarget=titlepage.htm&docsetVersion=9.4&locale=en)
-            * [Windows System Options](http://support.sas.com/documentation/cdl/en/hostwin/69955/HTML/default/viewer.htm#n0rlm7a9issspgn1vj98y6m4q89v.htm)
-            * [SQL Procedure User's Guide](http://support.sas.com/documentation/cdl//en/sqlproc/69822/HTML/default/viewer.htm#titlepage.htm)
-
+      * Useful Topics
+          * [SAS/ACCESS](http://documentation.sas.com/?docsetId=acpcref&docsetTarget=titlepage.htm&docsetVersion=9.4&locale=en)
+          * [Windows System Options](http://support.sas.com/documentation/cdl/en/hostwin/69955/HTML/default/viewer.htm#n0rlm7a9issspgn1vj98y6m4q89v.htm)
+          * [SQL Procedure User's Guide](http://support.sas.com/documentation/cdl//en/sqlproc/69822/HTML/default/viewer.htm#titlepage.htm)
 {{% /details %}}
 
 {{% details %}}
