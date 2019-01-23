@@ -46,7 +46,7 @@ PaginatePath = "page"
     twitter_cards = false
 
     # CSS/JS Customization
-    custom_css = ["assets/my.css"]
+    custom_css = ["assets/my.css", "assets/tooltip.css"]
     custom_js = ["assets/my.js"]
 
 # Define all supported taxonomies (add series to the default)
