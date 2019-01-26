@@ -10,12 +10,12 @@ menu:
 ---
 {{< pure-grid >}}
 
-{{% details %}}
+{{% pure-grid-element %}}
 * Cheatsheets
-    * [OverAPI](http://overapi.com)
-{{% /details %}}
+  * [OverAPI](http://overapi.com)
+{{% /pure-grid-element %}}
 
-{{% details %}}
+{{% pure-grid-element %}}
 * Python
     * [Docs](https://www.python.org/doc/)
         * [Python 3.7.2 Docs](https://docs.python.org/3/)
@@ -38,27 +38,26 @@ menu:
         * [Python News](https://www.python.org/blogs/)
         * [Community News](https://planetpython.org/titles_only.html)
         * [PSF News](http://pyfound.blogspot.com/)
-{{% /details %}}
+{{% /pure-grid-element %}}
 
-{{% details %}}
+{{% pure-grid-element %}}
 * R
     * Test
-{{% /details %}}
+{{% /pure-grid-element %}}
 
-{{% details %}}
+{{% pure-grid-element %}}
 * Regex
     * General
         * [Regex101](https://regex101.com)
         * [Regular-Expressions.info](https://www.regular-expressions.info/)
-    * (Hu)go
-        * [Syntax](https://github.com/google/re2/wiki/Syntax)
+    * [(Hu)go](https://github.com/google/re2/wiki/Syntax)
     * Python
         * [regex](https://pypi.org/project/regex/)
         * [re](https://docs.python.org/3/library/re.html)
         * [HOWTO](https://docs.python.org/3/howto/regex.html)
-{{% /details %}}
+{{% /pure-grid-element %}}
 
-{{% details %}}
+{{% pure-grid-element %}}
 * SAS
     * Documentation
           * [Landing Page](https://support.sas.com/documentation/94/)
@@ -67,13 +66,12 @@ menu:
           * [SAS/ACCESS](http://documentation.sas.com/?docsetId=acpcref&docsetTarget=titlepage.htm&docsetVersion=9.4&locale=en)
           * [Windows System Options](http://support.sas.com/documentation/cdl/en/hostwin/69955/HTML/default/viewer.htm#n0rlm7a9issspgn1vj98y6m4q89v.htm)
           * [SQL Procedure User's Guide](http://support.sas.com/documentation/cdl//en/sqlproc/69822/HTML/default/viewer.htm#titlepage.htm)
-{{% /details %}}
+{{% /pure-grid-element %}}
 
-{{% details %}}
+{{% pure-grid-element %}}
 * Web Development
     * Concepts
-        * How Browsers Work
-            * TL;DR: APIs are just public URLs (for web APIs) or code exposed by a web service or software library. In the latter case, think of the objects or methods exposed in languages like R or Python. In another sense, the API is a theoretical description of a library that implements the API. In any case--standard or actual software--the implementation details are hidden or not specified so long as the behavior of the described parts works as expected.
+        * How Browsers Work {{< fn 1 >}}
             * [Article 1](https://www.html5rocks.com/en/tutorials/internals/howbrowserswork/)
             * [Article 2](https://blog.logrocket.com/how-browser-rendering-works-behind-the-scenes-6782b0e8fb10)
             * [Article 3](https://css-tricks.com/dom/)
@@ -97,7 +95,7 @@ menu:
     * HTML
         * [html5doctor](http://html5doctor.com/)
         * [Standards](https://www.w3.org/standards/techs/html#w3c_all)
-            * [HTML 5.2](https://www.w3.org/TR/2017/REC-html52-20171214/)
+            * [HTML 5.2](https://www.w3.org/TR/html52/)
     * JavaScript
         * [ES6](https://es6.io/)
         * [The Modern JavaScript Tutorial](https://javascript.info/)
@@ -105,9 +103,9 @@ menu:
         * [DOM/JS](https://www.w3.org/standards/webdesign/script)
     * Test of Tooltips
         * <a href="" tooltip="Example tooltip" tooltip-position="right">Example Tooltip</a>
-{{% /details %}}
+{{% /pure-grid-element %}}
 
-{{% details %}}
+{{% pure-grid-element %}}
 * This Website
     * Hugo
         * [Docs](https://gohugo.io/documentation/)
@@ -118,7 +116,45 @@ menu:
         * Advanced Concepts
             * [Recursion with Templates](https://discourse.gohugo.io/t/go-template-programming-partials-pipe-use-as-functions-recursive/11444)
             * [Aray of maps](https://discourse.gohugo.io/t/coding-challenge-create-array-from-value-in-array-of-maps-in-frontmatter/6421/4)
+            * [Rendering Order](https://www.liwen.id.au/hugo-order/)
     * [Pure](https://purecss.io/)
-{{% /details %}}
+{{% /pure-grid-element %}}
 
 {{< /pure-grid >}}
+
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+
+{{< fn-ref-shell >}}
+{{< fn-ref 1 >}}
+TL;DR: APIs are just public URLs (for web APIs) or code exposed by a web service or software library. In the latter case, think of the objects or methods exposed in languages like R or Python. In another sense, the API is a theoretical description of a library that implements the API. In any case--standard or actual software--the implementation details are hidden or not specified so long as the behavior of the described parts works as expected.
+{{< /fn-ref >}}
+{{< /fn-ref-shell >}}
