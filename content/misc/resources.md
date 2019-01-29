@@ -70,43 +70,6 @@ menu:
 
 {{% pure-grid-element %}}
 * Web Development
-    * Concepts
-        * How Browsers Work{{< fn 1 >}}
-            * [Article 1](https://www.html5rocks.com/en/tutorials/internals/howbrowserswork/)
-            * [Article 2](https://blog.logrocket.com/how-browser-rendering-works-behind-the-scenes-6782b0e8fb10)
-            * [Article 3](https://css-tricks.com/dom/)
-            * [Article 4](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction)
-            * [Article 5](https://www.w3.org/TR/DOM-Level-2-Core/introduction.html)
-            * [Article 6](https://en.wikipedia.org/wiki/Document_Object_Model)
-            * [Article 7](https://www.w3schools.com/js/js_htmldom.asp)
-            * [Article 8](https://blog.sessionstack.com/how-javascript-works-the-rendering-engine-and-tips-to-optimize-its-performance-7b95553baeda)
-            * [Article 9](https://www.geeksforgeeks.org/dom-document-object-model/)
-    * Developer Websites
-        * [Google](https://developers.google.com/web/)
-        * [Mozilla](https://developer.mozilla.org/en-US/)
-        * [W3](https://www.w3schools.com/)
-        * [All Standards](https://www.w3.org/TR/)
-    * CSS
-        * [CSS-TRICKS](https://css-tricks.com/)
-        * [W3 List](https://www.w3.org/Style/CSS/learning)
-        * [Standards](https://www.w3.org/standards/techs/css#w3c_all)
-            * [CSS 3](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3)
-            * [CSS 2.1](https://www.w3.org/TR/2011/REC-CSS2-20110607/)
-    * HTML
-        * [html5doctor](http://html5doctor.com/)
-        * [Standards](https://www.w3.org/standards/techs/html#w3c_all)
-            * [HTML 5.2](https://www.w3.org/TR/html52/)
-    * JavaScript
-        * [ES6](https://es6.io/)
-        * [The Modern JavaScript Tutorial](https://javascript.info/)
-        * [Eloquent JavaScript](https://eloquentjavascript.net/)
-        * [DOM/JS](https://www.w3.org/standards/webdesign/script)
-    * Test of Tooltips
-        * <a href="" tooltip="Example tooltip" tooltip-position="right">Example Tooltip</a>
-{{% /pure-grid-element %}}
-
-{{% pure-grid-element %}}
-* This Website
     * Hugo
         * [Docs](https://gohugo.io/documentation/)
         * Tutorials
@@ -117,7 +80,54 @@ menu:
             * [Recursion with Templates](https://discourse.gohugo.io/t/go-template-programming-partials-pipe-use-as-functions-recursive/11444)
             * [Aray of maps](https://discourse.gohugo.io/t/coding-challenge-create-array-from-value-in-array-of-maps-in-frontmatter/6421/4)
             * [Rendering Order](https://www.liwen.id.au/hugo-order/)
-    * [Pure](https://purecss.io/)
+    * Developer Websites
+        * [Free Code Camp](https://www.freecodecamp.org/)
+        * [html.com](https://html.com/)
+        * [DevDocs](https://devdocs.io/)
+        * [Google](https://developers.google.com/web/)
+        * [Mozilla](https://developer.mozilla.org/en-US/)
+        * [W3](https://www.w3schools.com/)
+        * [All Standards](https://www.w3.org/TR/)
+        * [Tutorial Lists](https://gitconnected.com/learn)
+    * CSS
+        * [GeeksForGeeks](https://www.geeksforgeeks.org/css-tutorials/)
+        * [CSS-TRICKS](https://css-tricks.com/)
+        * [W3 List](https://www.w3.org/Style/CSS/learning)
+        * [Standards](https://www.w3.org/standards/techs/css#w3c_all)
+            * [CSS 3](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3)
+            * [CSS 2.1](https://www.w3.org/TR/2011/REC-CSS2-20110607/)
+    * HTML
+        * [htmlreference.io](https://htmlreference.io/)
+        * [GeeksForGeeks](https://www.geeksforgeeks.org/html-tutorials/)
+        * [html5doctor](http://html5doctor.com/)
+        * [Standards](https://www.w3.org/standards/techs/html#w3c_all)
+            * [HTML 5.2](https://www.w3.org/TR/html52/)
+            * [HTML 5 Reference](https://dev.w3.org/html5/html-author/)
+    * JavaScript
+        * [30 seconds of code](https://30secondsofcode.org/index)
+        * [The Modern JavaScript Tutorial](https://javascript.info/)
+        * [ES2018](https://flaviocopes.com/es2018/)
+        * [GeeksForGeeks](https://www.geeksforgeeks.org/javascript-tutorial/)
+        * [You Don't Know JS](https://github.com/getify/You-Dont-Know-JS)
+        * [js.com](https://www.javascript.com/)
+        * [Eloquent JavaScript](https://eloquentjavascript.net/)
+        * [DOM/JS](https://www.w3.org/standards/webdesign/script)
+        * [State of JS](https://stateofjs.com/)
+    * Examples
+        * [Example 1](https://zapier.com/engineering/great-documentation-examples/)
+    * Miscellaneous
+        * How Browsers Work{{< fn 1 >}}
+            * [Article 1](https://www.html5rocks.com/en/tutorials/internals/howbrowserswork/)
+            * [Article 2](https://blog.logrocket.com/how-browser-rendering-works-behind-the-scenes-6782b0e8fb10)
+            * [Article 3](https://css-tricks.com/dom/)
+            * [Article 4](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction)
+            * [Article 5](https://www.w3.org/TR/DOM-Level-2-Core/introduction.html)
+            * [Article 6](https://en.wikipedia.org/wiki/Document_Object_Model)
+            * [Article 7](https://www.w3schools.com/js/js_htmldom.asp)
+            * [Article 8](https://blog.sessionstack.com/how-javascript-works-the-rendering-engine-and-tips-to-optimize-its-performance-7b95553baeda)
+            * [Article 9](https://www.geeksforgeeks.org/dom-document-object-model/)
+    * Test of Tooltips
+        * <a href="" tooltip="Example tooltip" tooltip-position="right">Example Tooltip</a>
 {{% /pure-grid-element %}}
 
 {{< /pure-grid >}}
