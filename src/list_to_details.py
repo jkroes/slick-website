@@ -1,7 +1,3 @@
-# Set base and change paths?
-# Change build command to:
-# hugo && python ./src/list_to_details.py
-
 import __main__ as main
 from bs4 import BeautifulSoup, Tag
 import bs4
@@ -16,7 +12,7 @@ if not hasattr(main, '__file__'):
     os.chdir('/Users/justinkroes/Scripts/R/slick-website/src')
 
 # Read .html into DOM tree ('soup')
-with open('../public/misc/resources/index.html', 'r', encoding="utf-8") as f:
+with open('public/misc/resources/index.html', 'r', encoding="utf-8") as f:
     html_doc = f.read()
 soup = BeautifulSoup(html_doc)
 
@@ -45,7 +41,7 @@ for box in soup.find_all('div', class_='l-box'):
             li.name = 'p'  # Replace <li> with <p>
 
 # Overwrite original HTML file
-with open('../public/misc/resources/index.html', 'w', encoding="utf-8") as f:
+with open('public/misc/resources/index.html', 'w', encoding="utf-8") as f:
     f.write(str(soup))
 
 # for li in lis:
