@@ -3,13 +3,14 @@ from bs4 import BeautifulSoup, Tag
 import bs4
 import os
 
-print(os.listdir('.'))
+# List directories in current dir on netlify when building for debugging
+# print(os.listdir('.'))
 
 # Set working dir for interactive use of this script. Note that path in
 # os.chdir() may need to be tweaked based on this file's location:
 if not hasattr(main, '__file__'):
     import os
-    os.chdir('/Users/justinkroes/Scripts/R/slick-website/src')
+    os.chdir('/Users/justinkroes/Scripts/R/slick-website')
 
 # Read .html into DOM tree ('soup')
 with open('public/misc/resources/index.html', 'r', encoding="utf-8") as f:
