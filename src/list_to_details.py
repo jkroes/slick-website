@@ -5,6 +5,9 @@
 import __main__ as main
 from bs4 import BeautifulSoup, Tag
 import bs4
+import os
+
+print(os.listdir('.'))
 
 # Set working dir for interactive use of this script. Note that path in
 # os.chdir() may need to be tweaked based on this file's location:
