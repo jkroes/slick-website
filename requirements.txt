@@ -1,0 +1,4 @@
+beautifulsoup4==4.7.1
+certifi==2018.11.29
+soupsieve==1.7.1
+wincertstore==0.2
