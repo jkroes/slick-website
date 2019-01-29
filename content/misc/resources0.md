@@ -1,21 +1,21 @@
 ---
-slug: resources
+slug: resources0
 type: misc
 layout: resources
 draft: false
 menu:
   main:
-    name: Resources
+    name: Resources0
     weight: 999
 ---
 {{< pure-grid >}}
 
-{{% pure-grid-element %}}
+{{% pure-grid-element2 %}}
 * Cheatsheets
   * [OverAPI](http://overapi.com)
-{{% /pure-grid-element %}}
+{{% /pure-grid-element2 %}}
 
-{{% pure-grid-element %}}
+{{% pure-grid-element2 %}}
 * Python
     * [Docs](https://www.python.org/doc/)
         * [Python 3.7.2 Docs](https://docs.python.org/3/)
@@ -38,14 +38,14 @@ menu:
         * [Python News](https://www.python.org/blogs/)
         * [Community News](https://planetpython.org/titles_only.html)
         * [PSF News](http://pyfound.blogspot.com/)
-{{% /pure-grid-element %}}
+{{% /pure-grid-element2 %}}
 
-{{% pure-grid-element %}}
+{{% pure-grid-element2 %}}
 * R
     * Test
-{{% /pure-grid-element %}}
+{{% /pure-grid-element2 %}}
 
-{{% pure-grid-element %}}
+{{% pure-grid-element2 %}}
 * Regex
     * General
         * [Regex101](https://regex101.com)
@@ -55,9 +55,9 @@ menu:
         * [regex](https://pypi.org/project/regex/)
         * [re](https://docs.python.org/3/library/re.html)
         * [HOWTO](https://docs.python.org/3/howto/regex.html)
-{{% /pure-grid-element %}}
+{{% /pure-grid-element2 %}}
 
-{{% pure-grid-element %}}
+{{% pure-grid-element2 %}}
 * SAS
     * Documentation
           * [Landing Page](https://support.sas.com/documentation/94/)
@@ -66,9 +66,9 @@ menu:
           * [SAS/ACCESS](http://documentation.sas.com/?docsetId=acpcref&docsetTarget=titlepage.htm&docsetVersion=9.4&locale=en)
           * [Windows System Options](http://support.sas.com/documentation/cdl/en/hostwin/69955/HTML/default/viewer.htm#n0rlm7a9issspgn1vj98y6m4q89v.htm)
           * [SQL Procedure User's Guide](http://support.sas.com/documentation/cdl//en/sqlproc/69822/HTML/default/viewer.htm#titlepage.htm)
-{{% /pure-grid-element %}}
+{{% /pure-grid-element2 %}}
 
-{{% pure-grid-element %}}
+{{% pure-grid-element2 %}}
 * Web Development
     * Concepts
         * How Browsers Work{{< fn 1 >}}
@@ -103,9 +103,9 @@ menu:
         * [DOM/JS](https://www.w3.org/standards/webdesign/script)
     * Test of Tooltips
         * <a href="" tooltip="Example tooltip" tooltip-position="right">Example Tooltip</a>
-{{% /pure-grid-element %}}
+{{% /pure-grid-element2 %}}
 
-{{% pure-grid-element %}}
+{{% pure-grid-element2 %}}
 * This Website
     * Hugo
         * [Docs](https://gohugo.io/documentation/)
@@ -118,7 +118,7 @@ menu:
             * [Aray of maps](https://discourse.gohugo.io/t/coding-challenge-create-array-from-value-in-array-of-maps-in-frontmatter/6421/4)
             * [Rendering Order](https://www.liwen.id.au/hugo-order/)
     * [Pure](https://purecss.io/)
-{{% /pure-grid-element %}}
+{{% /pure-grid-element2 %}}
 
 {{< /pure-grid >}}
 
