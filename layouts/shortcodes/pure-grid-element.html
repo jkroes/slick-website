@@ -4,6 +4,7 @@
 <!-- Markdown lists are rendered with newlines in text and between elements -->
 {{ $a := split $stripped "\n" }}
 {{ $s := delimit $a "" }}
+<!-- Output -->
 <div class="pure-u-8-24">
   <div class="l-box">{{ $s }}</div>
 </div>

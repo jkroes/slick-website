@@ -122,39 +122,13 @@ menu:
 
 {{< /pure-grid >}}
 
-<br></br>
-<br></br>
-<br></br>
-<br></br>
-<br></br>
-<br></br>
-<br></br>
-<br></br>
-<br></br>
-<br></br>
-<br></br>
-<br></br>
-<br></br>
-<br></br>
-<br></br>
-<br></br>
-<br></br>
-<br></br>
-<br></br>
-<br></br>
-<br></br>
-<br></br>
-<br></br>
-<br></br>
-<br></br>
-<br></br>
-<br></br>
-<br></br>
-<br></br>
-<br></br>
-
 {{< fn-ref-shell >}}
 {{< fn-ref 1 >}}
-TL;DR: APIs are just public URLs (for web APIs) or code exposed by a web service or software library. In the latter case, think of the objects or methods exposed in languages like R or Python. In another sense, the API is a theoretical description of a library that implements the API. In any case--standard or actual software--the implementation details are hidden or not specified so long as the behavior of the described parts works as expected.
+TL;DR: APIs are just public URLs (for web APIs) or code exposed by a web service
+or software library. In the latter case, think of the objects or methods exposed
+in languages like R or Python. In another sense, the API is a theoretical
+description of a library that implements the API. In any case--standard or
+actual software--the implementation details are hidden or not specified so long
+as the behavior of the described parts works as expected.
 {{< /fn-ref >}}
 {{< /fn-ref-shell >}}
