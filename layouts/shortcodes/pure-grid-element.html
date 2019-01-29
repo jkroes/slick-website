@@ -1,6 +1,9 @@
 <!-- https://purecss.io/grids/ -->
 <!-- Markdown with HTML (e.g. footnotes) renders text in extra <p> -->
 {{ $stripped := replace (replace .Inner "<p>" "") "</p>" "" }}
+<!-- Markdown lists are rendered with newlines in text and between elements -->
+{{ $a := split $stripped "\n" }}
+{{ $s := delimit $a "" }}
 <div class="pure-u-8-24">
-  <div class="l-box">{{ $stripped | safeHTML }}</div>
+  <div class="l-box">{{ $s }}</div>
 </div>
