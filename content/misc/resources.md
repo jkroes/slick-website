@@ -42,7 +42,13 @@ menu:
 
 {{% pure-grid-element %}}
 * R
-    * Test
+    * [R-Project](https://www.r-project.org/other-docs.html)
+        * [Manuals](https://cran.r-project.org/manuals.html)
+        * [FAQ](https://cran.r-project.org/faqs.html)
+        * [R Journal](https://journal.r-project.org)
+        * [R Books](https://www.r-project.org/doc/bib/R-books.html)
+        * [Contributed Docs](https://cran.r-project.org/other-docs.html)
+    * [Getting Help with R](https://www.r-project.org/help.html)
 {{% /pure-grid-element %}}
 
 {{% pure-grid-element %}}
